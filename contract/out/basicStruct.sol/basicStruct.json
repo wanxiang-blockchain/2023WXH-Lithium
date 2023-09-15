@@ -1,0 +1,421 @@
+{
+  "abi": [],
+  "bytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "deployedBytecode": {
+    "object": "0x",
+    "linkReferences": {}
+  },
+  "ast": {
+    "absolutePath": "src/iot/basicStruct.sol",
+    "id": 49696,
+    "exportedSymbols": {
+      "DeviceBase": [
+        49695
+      ],
+      "DeviceData": [
+        49684
+      ],
+      "ExtendData": [
+        49673
+      ]
+    },
+    "nodeType": "SourceUnit",
+    "src": "39:397:50",
+    "nodes": [
+      {
+        "id": 49666,
+        "nodeType": "PragmaDirective",
+        "src": "39:23:50",
+        "nodes": [],
+        "literals": [
+          "solidity",
+          "^",
+          "0.8",
+          ".0"
+        ]
+      },
+      {
+        "id": 49673,
+        "nodeType": "StructDefinition",
+        "src": "69:79:50",
+        "nodes": [],
+        "canonicalName": "ExtendData",
+        "members": [
+          {
+            "constant": false,
+            "id": 49669,
+            "mutability": "mutable",
+            "name": "keys",
+            "nameLocation": "109:4:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49673,
+            "src": "97:16:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+              "typeString": "string[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 49667,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "97:6:50",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "id": 49668,
+              "nodeType": "ArrayTypeName",
+              "src": "97:8:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+                "typeString": "string[]"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49672,
+            "mutability": "mutable",
+            "name": "values",
+            "nameLocation": "135:6:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49673,
+            "src": "123:18:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+              "typeString": "string[]"
+            },
+            "typeName": {
+              "baseType": {
+                "id": 49670,
+                "name": "string",
+                "nodeType": "ElementaryTypeName",
+                "src": "123:6:50",
+                "typeDescriptions": {
+                  "typeIdentifier": "t_string_storage_ptr",
+                  "typeString": "string"
+                }
+              },
+              "id": 49671,
+              "nodeType": "ArrayTypeName",
+              "src": "123:8:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_array$_t_string_storage_$dyn_storage_ptr",
+                "typeString": "string[]"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "ExtendData",
+        "nameLocation": "76:10:50",
+        "scope": 49696,
+        "visibility": "public"
+      },
+      {
+        "id": 49684,
+        "nodeType": "StructDefinition",
+        "src": "154:137:50",
+        "nodes": [],
+        "canonicalName": "DeviceData",
+        "members": [
+          {
+            "constant": false,
+            "id": 49676,
+            "mutability": "mutable",
+            "name": "base",
+            "nameLocation": "194:4:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49684,
+            "src": "182:16:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_DeviceBase_$49695_storage_ptr",
+              "typeString": "struct DeviceBase"
+            },
+            "typeName": {
+              "id": 49675,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 49674,
+                "name": "DeviceBase",
+                "nameLocations": [
+                  "182:10:50"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 49695,
+                "src": "182:10:50"
+              },
+              "referencedDeclaration": 49695,
+              "src": "182:10:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_DeviceBase_$49695_storage_ptr",
+                "typeString": "struct DeviceBase"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49678,
+            "mutability": "mutable",
+            "name": "status",
+            "nameLocation": "220:6:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49684,
+            "src": "208:18:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_uint8",
+              "typeString": "uint8"
+            },
+            "typeName": {
+              "id": 49677,
+              "name": "uint8",
+              "nodeType": "ElementaryTypeName",
+              "src": "208:5:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_uint8",
+                "typeString": "uint8"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49680,
+            "mutability": "mutable",
+            "name": "approved",
+            "nameLocation": "248:8:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49684,
+            "src": "236:20:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49679,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "236:7:50",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49683,
+            "mutability": "mutable",
+            "name": "extend",
+            "nameLocation": "278:6:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49684,
+            "src": "266:18:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_struct$_ExtendData_$49673_storage_ptr",
+              "typeString": "struct ExtendData"
+            },
+            "typeName": {
+              "id": 49682,
+              "nodeType": "UserDefinedTypeName",
+              "pathNode": {
+                "id": 49681,
+                "name": "ExtendData",
+                "nameLocations": [
+                  "266:10:50"
+                ],
+                "nodeType": "IdentifierPath",
+                "referencedDeclaration": 49673,
+                "src": "266:10:50"
+              },
+              "referencedDeclaration": 49673,
+              "src": "266:10:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_struct$_ExtendData_$49673_storage_ptr",
+                "typeString": "struct ExtendData"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "DeviceData",
+        "nameLocation": "161:10:50",
+        "scope": 49696,
+        "visibility": "public"
+      },
+      {
+        "id": 49695,
+        "nodeType": "StructDefinition",
+        "src": "297:137:50",
+        "nodes": [],
+        "canonicalName": "DeviceBase",
+        "members": [
+          {
+            "constant": false,
+            "id": 49686,
+            "mutability": "mutable",
+            "name": "code",
+            "nameLocation": "333:4:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49695,
+            "src": "325:12:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 49685,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "325:6:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49688,
+            "mutability": "mutable",
+            "name": "name",
+            "nameLocation": "355:4:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49695,
+            "src": "347:12:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 49687,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "347:6:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49690,
+            "mutability": "mutable",
+            "name": "firm",
+            "nameLocation": "377:4:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49695,
+            "src": "369:12:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_string_storage_ptr",
+              "typeString": "string"
+            },
+            "typeName": {
+              "id": 49689,
+              "name": "string",
+              "nodeType": "ElementaryTypeName",
+              "src": "369:6:50",
+              "typeDescriptions": {
+                "typeIdentifier": "t_string_storage_ptr",
+                "typeString": "string"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49692,
+            "mutability": "mutable",
+            "name": "iot",
+            "nameLocation": "399:3:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49695,
+            "src": "391:11:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49691,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "391:7:50",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          },
+          {
+            "constant": false,
+            "id": 49694,
+            "mutability": "mutable",
+            "name": "manager",
+            "nameLocation": "420:7:50",
+            "nodeType": "VariableDeclaration",
+            "scope": 49695,
+            "src": "412:15:50",
+            "stateVariable": false,
+            "storageLocation": "default",
+            "typeDescriptions": {
+              "typeIdentifier": "t_address",
+              "typeString": "address"
+            },
+            "typeName": {
+              "id": 49693,
+              "name": "address",
+              "nodeType": "ElementaryTypeName",
+              "src": "412:7:50",
+              "stateMutability": "nonpayable",
+              "typeDescriptions": {
+                "typeIdentifier": "t_address",
+                "typeString": "address"
+              }
+            },
+            "visibility": "internal"
+          }
+        ],
+        "name": "DeviceBase",
+        "nameLocation": "304:10:50",
+        "scope": 49696,
+        "visibility": "public"
+      }
+    ],
+    "license": "UNLICENSED"
+  },
+  "id": 50
+}
